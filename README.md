@@ -11,7 +11,7 @@ Essentially it's a way to group many repositories in an entity called an organiz
 Raise an issue on this repository asking to join ([invite me](https://github.com/TechMart-Pune/support/issues/new?assignees=&labels=invite+me&template=invitation.yml&title=Please+invite+me+to+the+TechMart+GitHub+Community+Organization)).
 
 - **How do I set the Organization to Public?**
-	- Navigate to our community page: https://github.com/Devs-Dungeon
+	- Navigate to our community page: https://github.com/TechMart-Pune
 	
 	- Click on the highlighted area `People`:
 	
