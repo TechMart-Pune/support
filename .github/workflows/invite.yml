@@ -1,0 +1,34 @@
+name: 🤖 Auto Invite to TechMart Organization
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  invite:
+    runs-on: ubuntu-latest
+
+    if: |
+      contains(github.event.issue.title, 'Please invite me to the TechMart GitHub Community Organization')
+
+    steps:
+      - name: Invite user to TechMart Organization
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.MY_GITHUB_PAT }}
+          script: |
+            const username = context.payload.issue.user.login;
+            const org = 'TechMart-Pune';
+
+            try {
+              await github.rest.orgs.createInvitation({
+                org: org,
+                invitee_id: context.payload.issue.user.id,
+                role: 'direct_member' // use 'admin' for admin invites if needed
+              });
+
+              console.log(`✅ Invitation sent to @${username}`);
+            } catch (error) {
+              console.error(`❌ Failed to invite @${username}:`, error);
+              throw error;
+            }
