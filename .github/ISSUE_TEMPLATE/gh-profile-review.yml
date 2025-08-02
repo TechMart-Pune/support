@@ -1,0 +1,19 @@
+name: GitHub Profile Review
+description: Please review my GitHub profile on a livestream
+title: "[REVIEW] <your-username>"
+labels: [gh profile review, live stream review]
+body:
+  - type: input
+    id: link
+    attributes:
+      label: GitHub Profile Link
+      placeholder: https://github.com/<your-username>
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        Join our Discord Community [here](https://discord.gg/ceMXzhfaka)
+        Follow us on LinkedIn [here](https://www.linkedin.com/company/devs-dungeon)
+        Follow us on Twitter [here](https://twitter.com/devs_dungeon)
+        Feel free to check out other cool repositories of the DEVs Dungeon Community [here](https://github.com/Devs-Dungeon)
