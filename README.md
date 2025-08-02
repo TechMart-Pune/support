@@ -1,7 +1,7 @@
 # TechMart Community Support
 
 
-To join **TechMart** GitHub Organization, click [here]https://github.com/TechMart-Pune/support/issues/new?assignees=&labels=invite+me&template=invitation.yml&title=Please+invite+me+to+the+TechMart+GitHub+Community+Organization)
+To join **TechMart** GitHub Organization, click [here](https://github.com/TechMart-Pune/support/issues/new?assignees=&labels=invite+me&template=invitation.yml&title=Please+invite+me+to+the+TechMart+GitHub+Community+Organization)
 
 ## FAQ
 - **What is a GitHub Organization?**  
