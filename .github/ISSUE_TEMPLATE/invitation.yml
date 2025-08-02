@@ -1,32 +1,26 @@
-name: Invitation to the DEVs Dungeon GitHub Community Organization
-description: I would like to be part of the developers community
-title: "Please invite me to the DEVs Dungeon GitHub Community Organization"
-labels: [invite me to the organisation]
+name: 🙋‍♂️ Request to Join TechMart Community
+description: Request an invitation to join the TechMart Pune GitHub Organization
+title: "Please invite me to the TechMart GitHub Community Organization"
+labels: [invite me]
 body:
   - type: input
     id: name
     attributes:
-      label: Name
-      placeholder: Insert your name here
+      label: Your Full Name
+      placeholder: e.g., Vishwajeet Londhe
     validations:
       required: true
-  - type: input
-    id: discordname
-    attributes:
-      label: Discord Username (if applicable)
-      placeholder: Insert your Discord username here
-    validations:
-      required: false
   - type: textarea
-    id: Additional
+    id: reason
     attributes:
-      label: Additional Context
-      description: What do you like about this community/Why do you want to join?
+      label: Why do you want to join?
+      description: Tell us why you're interested in TechMart Pune
+      placeholder: I want to contribute to open-source and grow with the community.
     validations:
       required: true
   - type: markdown
     attributes:
       value: |
-        Join our Discord Community [here](https://discord.gg/ceMXzhfaka) to interact with 5k+ Developers from across the world!
-        Follow our LinkedIn Page [here](https://www.linkedin.com/company/devs-dungeon) for Internships, Jobs, Workshops, Events updates! 
-        Feel free to check out our Bio Link [here](https://devs-dungeon.github.io/bio/) 🔥
+        👉 Join our WhatsApp Channel [here](https://whatsapp.com/channel/0029ValjFriICVfpcV9HFc3b) for regular TechMart updates.  
+        👉 Follow our Instagram [here](https://www.instagram.com/all_technical_updates) for technical content.  
+        👉 Explore TechMart [here](https://github.com/TechMart-Pune) 🔥
