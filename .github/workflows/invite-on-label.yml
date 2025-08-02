@@ -1,0 +1,17 @@
+name: 🤖 Auto Invite to TechMart GitHub Organization
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  invite:
+    if: github.event.label.name == 'invite me'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Invite user to GitHub organization
+        uses: actions-cool/issues-helper@v3
+        with:
+          actions: inviteUserToOrg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          org: TechMart-Pune
