@@ -1,4 +1,4 @@
-# DEVs Dungeon Community Support
+# TechMart Community Support
 
 [![Discord](https://img.shields.io/discord/865937470118297640.svg?logo=discord&colorB=5865F2)](https://discord.gg/ceMXzhfaka)
 
