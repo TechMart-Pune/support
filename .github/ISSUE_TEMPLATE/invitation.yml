@@ -7,7 +7,7 @@ body:
     id: name
     attributes:
       label: Your Full Name
-      placeholder: Insert your full name here
+      placeholder: Insert your name here
     validations:
       required: true
   - type: textarea
